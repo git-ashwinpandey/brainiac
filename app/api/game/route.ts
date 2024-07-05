@@ -8,6 +8,10 @@ import { ZodError } from 'zod'
 export async function POST(req: Request, res: Response) {
 	try {
 		const session = await auth()
+		
+		if (!session) {
+			throw new Error('Session is null')
+		}
 		// if (!session?.user) {
 		// 	return NextResponse.json(
 		// 		{ error: 'You must be logged in to access this resource' },
