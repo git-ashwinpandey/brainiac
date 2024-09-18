@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Brainiac - An AI Quiz Game #
+An AI Quiz game powered by Google's Gemini
+
+
+## Techstack
+**Framework:** Next.js
+
+**Database:** PostgreSQL
+
+**ORM:** Prisma
+
+**UI Library:** shadcn/ui
 
 ## Getting Started
 
